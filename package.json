@@ -1,0 +1,16 @@
+{
+  "name": "jgb-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jgbjs/jgb-template.git",
+  "author": "蒋瑶 <landn172@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "jgb build",
+    "watch": "jgb build --watch"
+  },
+  "devDependencies": {
+    "jgb-preset-weapp": "^1.3.7",
+    "@tuhu/dt-weapp": "^1.2.3"
+  }
+}
